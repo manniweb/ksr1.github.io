@@ -22,7 +22,7 @@ html, body {
     
 }
 div{
-    
+  
 }
 * {
     box-sizing: border-box;
@@ -549,6 +549,7 @@ margin-left:27%;
 
 .containercontact-11{
     display:flex;
+    flex-wrap: wrap;
     height:60vh;
     padding:40px;
     
@@ -589,10 +590,11 @@ text-align: center;
 .containeradd{
     padding-left:20px;
     flex:1;
+    border-left:1px solid;
 }
 .containeradd p, .containeradd h1{
     padding:10px;
-    border-left:1px solid;
+   
 }
 .containeradd h1{
     text-align: center;
@@ -609,19 +611,21 @@ text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    padding:10px;
+    
     margin-bottom:10px;
-   
+    height:auto;
 }
 .registerf{
     width:80%;
-    margin-left:12%;
+    margin:0 auto;
+    text-align: center;
     color:black;
-    height:110vh;
-     margin-bottom:5%;
+    
+     
    z-index:2;
   position: relative;
- 
+ max-width: 950px;
+ min-width: 600px;
 
 }
 .registerf >h1{
@@ -632,18 +636,22 @@ text-align: center;
 }
 .imbigform{
      padding:10px;
+     width:85%;
+     margin: 0 auto;
+     text-align: center;
+    
 }
 .imform{
     
-    margin-left:12%;
-
+   
+   
    
     
 }
 .imform > div{
     padding:10px;
 
-    width: 85%; 
+    
 
 
 
@@ -664,8 +672,9 @@ textarea{
 }
 
 .contrb{
-    position: absolute;
-    left:39.5%;
+   
+  margin:0 auto;
+  text-align: center;
 }
 .registerbutton{
     width:auto;
@@ -677,7 +686,7 @@ border:1px solid black;
     color:white;
     font-size: 1.5em;
    
-
+    
 }
 
                                                                             /*Meet the team page starts*/
@@ -801,7 +810,7 @@ visibility: hidden;
 }
 .cont11-1{
   display: flex;
-
+flex-wrap: wrap;
   padding:20px;
 }
 .cont11-1 > div{
@@ -854,19 +863,21 @@ text-align: center;
 }
 
 .contactwo1{
+    margin:0 auto;
+    text-align: center;
+    min-width: 140px;
     border:1px solid transparent;
     background: #282828;
     border-radius:10px;
-    padding:7px;
-    margin-left:28%;
-    width: 300px;
-    margin-bottom:10px;
-    text-align: center;
+    padding:10px;
+   
+  
+
 }
 .contactwo1 a{
     color:white;
     font-size: 1.3em;
-    text-decoration: none;
+   
 }
 
 @media only screen and (max-width:600px){
@@ -896,7 +907,7 @@ text-align: center;
         padding:0;
         font-size: 3em;
     right:4%;
-        top:7%;
+    top:40%;
     left:0;
     }
     .hp1 {
@@ -921,6 +932,13 @@ margin:2px;
 .fupper-1, .fupper-2{
     display: block;
 } 
+.registerf{
+    min-width:400px;
+}
+.imbigform{
+    width: 98%;
+    padding: 0;
+}
 
 }
                                 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -1052,6 +1070,32 @@ and (max-width :600px) {
 .bottom-nav1 > li{
     margin-left:3%;
 }
+.cont11-1{
+    display: block;
+}
+.cont11-1-2{
+    border-left:0;
+    border-top:1px solid black;
+}
+.containercontact-11{
+    display: block;
+    height: auto;
+}
+ .containeradd {
+    
+    
+    border-top:1px solid black;
+}
+.registerf{
+    width: 100%;
+}
+.imbigform{
+    width: 95%;
+    padding: 0;
+}
+.imform > div{
+    padding:0;
+}
     }
 
 
@@ -1059,7 +1103,9 @@ and (max-width :600px) {
                                                                   /*large devices (laptop/desktops 992px and up) */
 @media only screen and (max-width:860px)and (min-width:700px){
 
-  
+  body{
+      background-color: blue;
+  }
    
     
     /* class for contact in hbar*/
@@ -1149,13 +1195,32 @@ and (max-width :600px) {
     
                 /* contact page*/
     
+   
+    .cont11-1{
+        display: block;
+    }
+    .cont11-1-2{
+        border-left:0;
+        border-top:1px solid black;
+    }
     .containercontact-11{
-           height:40vh;
+        display: block;
+        height: auto;
+    }
+     .containeradd {
+        
+    
+        border-top:1px solid black;
     }
     .registerf{
-    width:45%;
-        margin-left: 27%;
-        height:70vh;
+        width: 100%;
+    }
+    .imbigform{
+        width: 90%;
+        padding: 0;
+    }
+    .imform > div{
+        padding:0;
     }
 }
     @media only screen and (max-width:1060px) and (min-width:865px){
@@ -1303,14 +1368,8 @@ and (max-width :600px) {
     
                 /* contact page*/
     
-    .containercontact-11{
-           height:40vh;
-    }
-    .registerf{
-    width:45%;
-        margin-left: 25%;
-        height:70vh;
-    }
+  
+  
 
 }
                                                               
