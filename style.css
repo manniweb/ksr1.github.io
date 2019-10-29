@@ -369,7 +369,7 @@ margin:5px;
 margin-top:4.9%;
 position: relative;
 width:100%;
-border:1px solid blue;
+
 }
 .cd1{
     
@@ -377,7 +377,7 @@ border:1px solid blue;
     width:100%;
     top:1%;
     
-    border:1px solid red;
+    
 }
 .cd1 h1{
     font-size: 2em;
@@ -896,6 +896,7 @@ text-align: center;
         padding:0;
         font-size: 3em;
     right:4%;
+        top:7%;
     left:0;
     }
     .hp1 {
@@ -1058,9 +1059,7 @@ and (max-width :600px) {
                                                                   /*large devices (laptop/desktops 992px and up) */
 @media only screen and (max-width:860px)and (min-width:700px){
 
-  body{
-      background-color: blue;
-  }
+  
    
     
     /* class for contact in hbar*/
