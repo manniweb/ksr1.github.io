@@ -128,9 +128,7 @@ z-index:3;
 
     
 }
-.main-nav > li:last-child{
-    margin-left:none;
-}
+
 .main-nav > li{
     
     padding:15px;
@@ -141,10 +139,7 @@ z-index:3;
     padding:5px;
    
 }
-.navcontact{
-    margin-left:auto;
-    
-}
+
 .main-nav li a{
  
  width: auto;
@@ -167,8 +162,8 @@ z-index:3;
 
 }
 
-.main-nav ul .iconme{
-    border:1px solid red;
+.main-nav  .icon{
+    visibility: hidden;
 
 }
 
@@ -220,11 +215,7 @@ text-decoration: underline;
 }
 
 }
-.main-nav .bused a{
-    margin-right:0%;
-    visibility: hidden;
-    
-}
+
 
 /* header*/
 #header{
@@ -235,12 +226,11 @@ text-decoration: underline;
     text-align: center;
    
    overflow: hidden;
-   height:47vh;
+   
 }
 
-#header .hp1{
-   
-  
+#header.hp1{
+    background-attachment: fixed;
 }
 
   .insideh{
@@ -655,12 +645,13 @@ text-align: center;
     width:100%;
     padding:10px;
     background-color: rgba(0, 0, 0, 0.06);
-
+border:1px solid white;
 }
 textarea{
     width:100%;
     background-color: rgba(0, 0, 0, 0.06);
-
+    border:1px solid white;
+  
 }
 
 .contrb{
@@ -902,12 +893,14 @@ text-align: center;
     top:40%;
     left:0;
     }
-    .hp1 {
+    #header .hp1 {
      height:150px;
      max-width:600px;
      min-width:230px;
-     background-attachment:initial;
-     background-size:none;
+     background-attachment:scroll;
+
+     background-size:auto;
+     border:1px solid red;
     }
  .fupper > div{
      padding:5px;
@@ -986,7 +979,7 @@ text-align: center;
    
     
 }
-.bused{
+.main-nav .icon{
     visibility: visible;
 }
 
@@ -1028,11 +1021,12 @@ width:auto;
     
     }
     
-      .main-nav.responsive > li:hover  ul {
+      #nav .main-nav.responsive   li:hover  ul {
         display: block;
         
-        margin-left:30%;
-      margin-top:25% ;
+     
+      position: relative;
+width: 100%;;
    
     }
    
