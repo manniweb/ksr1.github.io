@@ -22,7 +22,7 @@ html, body {
     
 }
 div{
-
+border:1px solid red;
 }
 * {
     box-sizing: border-box;
@@ -260,7 +260,9 @@ text-decoration: underline;
     height:40vh;
     margin-left:5%;
 }
-
+.about > div{
+    margin:auto 0;
+}
 .al1{
     font-size:1.4em;
     flex-basis:40%;
@@ -279,18 +281,18 @@ text-decoration: underline;
    
 
    
-    height:70vh;
+    height:80vh;
    
    
     position: relative;
-    overflow: hidden;
+  margin-bottom: 10px;
     
 }
 .ethingbg{
     background:url(bg3.jpg);
    max-width:100%;
-    height:100%;
-    z-index:1;
+   height: 70vh;
+    z-index:77;
 
     background-attachment: fixed;
     background-position: center;
@@ -311,6 +313,7 @@ text-decoration: underline;
   top:33%;
   left:3%;
   height:auto;
+  overflow: hidden;
 }
 .echild {
    
@@ -894,13 +897,50 @@ text-align: center;
     left:0;
     }
     #header .hp1 {
-     height:150px;
+     height:200px;
      max-width:600px;
-     min-width:230px;
+     
+     min-width:130px;
      background-attachment:scroll;
-
+     -webkit-background-attachment: scroll;
+     -webkit-background-size: 350px 150px;
      background-size:auto;
      border:1px solid red;
+    }
+    #ething{
+        height:700px;
+        
+        
+    }
+    #ething> div{
+        padding:0
+    }
+    .ethingbg{
+        height: 100%;
+    }
+    .eparent{
+        top:0;
+        left:0;
+
+    }
+    .echild{
+     
+        display: block;
+
+  }
+    .echild > div{
+        overflow: hidden;
+      width: 200px;
+      margin: 0 auto;
+      padding:0;
+
+      ;
+    }
+    .echild  >div > a{
+        width:30px;
+    }
+    .contactdown{
+        height:30vh;
     }
  .fupper > div{
      padding:5px;
