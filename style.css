@@ -431,12 +431,15 @@ padding-top:5%;
 .fupper-1, .fupper-2{
     display: flex;
     flex-wrap: wrap;
-
+  
 }
-.fupper-1>div{
+.f1{
 flex:1;
 
 
+}
+.f2{
+    flex:2;
 }
 .f1 li a{
     text-align: center;
@@ -450,6 +453,7 @@ flex:1;
    }
    .f2 .hmap iframe{
        border-radius:10px;
+     
    }
    .f2,.f3{
        text-align: center;
@@ -931,13 +935,14 @@ text-align: center;
     .echild > div{
         overflow: hidden;
       width: 200px;
-      margin: 0 auto;
+      margin: 5px auto;
       padding:0;
-
+height: auto;
       ;
     }
     .echild  >div > a{
         width:30px;
+
     }
     .contactdown{
         height:30vh;
@@ -955,6 +960,7 @@ margin:2px;
 .fupper-1, .fupper-2{
     display: block;
 } 
+
 .registerf{
     min-width:300px;
    
