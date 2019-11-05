@@ -105,21 +105,16 @@
           <h1> Contact Karanpaul Randhawa <br> Today  </h1>
           <div class="imbigform">
 
-            <form action="register.php" method="post" class="imform">
-         <div class="name">
-        <input type="text" name="firstname" required="required" placeholder="Your Full Name.."/>
-     </div>
-    <div class="formphonenumber">
- <input type="number" name="phone" class="fphone" required="required" placeholder="Phone Number.."></div>
-           <div class="email-1">
-    <input type="email" name="email" placeholder="You Email address">
-           </div>
-          <div class="ftext-area">
-              <textarea name="comment" rows="20" cols="40" placeholder="Write Comment Here..."></textarea>
-          </div>
-          <div class="contrb">
-          <input type="submit" value="submit" class="registerbutton"/>
-          </div>
+            <form action="register.php" method="post" name="form" class="form-box">
+              <label for="name">Name</label><br>
+              <input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+              <label for="email">Email ID</label><br>
+              <input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+              <label for="phone">Phone</label><br>
+              <input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
+              <label for="message">Message</label><br>
+              <textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+              <input type="submit" name="submit" value="Send" class="sub-btn">
           </form>
       </div>
       </div>
