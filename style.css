@@ -896,9 +896,9 @@ text-align: center;
      min-width:130px;
      background-attachment:scroll;
      -webkit-background-attachment: scroll;
-     -webkit-background-size: 350px 150px;
-     background-size:auto;
-     border:1px solid red;
+     -webkit-background-size: 600px 250px;
+     background-size:600px 250px;
+     
     }
     #ething{
         height:700px;
