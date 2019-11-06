@@ -8,6 +8,20 @@
         <title>
             RandhawaLawyers-Meet The Team
         </title>
+        <style type="text/css">
+            #header .hp1{
+              background:url("bg11.jpg");
+         position: relative;
+         
+         height:350px;
+         width:100%;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         z-index:2;
+      }
+          </style>
         <link rel="stylesheet" href="style.css" type="text/css">
       
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300&display=swap" rel="stylesheet">
@@ -52,14 +66,7 @@
   
 <header id="header">
       
-  <div class="hp1" style="background:url(bg11.jpg);margin-top:2%;
-  height:350px;
-  width:100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index:2;"> 
+  <div class="hp1" > 
 
   
   <div class="insideh"> <h1><strong>Have Your Justice </strong> </h1></div>
@@ -174,6 +181,19 @@
                 x.className = "main-nav";
               }
             }
+            function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.background-attachment:"scroll";
+
+  } else {
+   document.body.style.background-attachment = "fixed";
+  }
+}
+
+var x = window.matchMedia("(max-width: 600px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+    
             </script>
         </body>
         </html>

@@ -8,7 +8,7 @@
             <title>
             RandhawaLawyers-ContactUs
         </title>
-        <style>
+        <style type="text/css">
             #header .hp1{
               background:url("bg14.jpg");
          position: relative;
@@ -187,6 +187,19 @@
             x.className = "main-nav";
           }
         }
+        function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.background-attachment:"scroll";
+
+  } else {
+   document.body.style.background-attachment = "fixed";
+  }
+}
+
+var x = window.matchMedia("(max-width: 600px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+    
         </script>
         </body>
         </html>
