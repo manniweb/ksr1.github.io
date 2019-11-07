@@ -896,8 +896,8 @@ text-align: center;
      min-width:130px;
      background-attachment:scroll;
      -webkit-background-attachment: scroll;
-     -webkit-background-size: 600px 250px;
-     background-size:600px 250px;
+     -webkit-background-size: 600px 200px;
+     background-size:600px 200px;
      
     }
     #ething{
@@ -1092,7 +1092,17 @@ and (max-width :600px) {
     margin-left:5%;
 }
 
-
+#header .hp1 {
+    height:300px;
+    max-width:768px;
+    
+    min-width:130px;
+    background-attachment:scroll;
+    -webkit-background-attachment: scroll;
+    -webkit-background-size: 768px 350px;
+    background-size:768px 350px;
+    
+   }
 .insideh{
     left:15%;
 }
