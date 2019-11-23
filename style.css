@@ -31,7 +31,9 @@ div{
   padding:0;
     text-decoration: none;
   }
- 
+ .bold{
+     font-weight: bold;
+ }
 /* bar above header */
 .upperdd{
     width:100%;
@@ -780,17 +782,19 @@ visibility: hidden;
                                                   /*Work*/
 .simplecontwork{
     
-    width:80%;
-    margin-left:12%;
+    width:90%;
+    margin:0 auto;
     color:black;
 }
 .simplecontwork > div:last-child{
-    width:12%;
+    
 }
+
 .cont11-1{
   display: flex;
 flex-wrap: wrap;
   padding:20px;
+  
 }
 .cont11-1 > div{
     padding:20px;
@@ -804,18 +808,23 @@ flex-wrap: wrap;
   }
 .cont11-1-1 h1{
   padding:10px;
-
+ font-size: 1.6em;
+ font-weight: 900;
+ text-align: center;
 }
+
 .cont11-1-1 h2{
 padding:10px;
-font-size:1.3em;
+font-size:1.1em;
 text-align: center;
+font-weight: 650;
+line-height: 25px;
 }
 .cont11-1-1 p{
     text-align: center;
     padding:20px;
     opacity: 0.8;
-    line-height: 1.3em;
+    line-height: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
 
@@ -828,10 +837,20 @@ text-align: center;
     
     
 }
+.cont11-1-2 ul {
+    
+
+  }
+  .cont11-1-2 li{
+      padding:5px;
+     line-height: 20px;
+  }
 .cont11-1-2 h1{
-    font-size: 1.3em;
+    font-size: 1.39em;
     padding:20px;
+    font-weight: 900;
 }
+
 .cont11-1-2 p{
     padding:20px;
     opacity: 0.8;
@@ -842,12 +861,12 @@ text-align: center;
 }
 
 .contactwo1{
-    margin:0 auto;
+    margin:10px auto;
     text-align: center;
     min-width: 140px;
     border:1px solid transparent;
     background: #282828;
-    border-radius:10px;
+    border-radius:100px;
     padding:10px;
    
   
@@ -1157,6 +1176,9 @@ border-left:0;
     .cont11-1-1{
         padding: 0;
     }
+    .cont11-1-2{
+     
+        text-align: center;
     }
 
 
@@ -1261,6 +1283,7 @@ border-left:0;
     .cont11-1-2{
         border-left:0;
         border-top:1px solid black;
+        text-align: center;
     }
     .containercontact-11{
         display: block;
