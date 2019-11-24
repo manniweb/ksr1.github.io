@@ -21,6 +21,9 @@ html, body {
     height: 100%;
     
 }
+footer{
+    width:100%;
+}
 div{
 
 }
@@ -38,7 +41,7 @@ div{
 .upperdd{
     width:100%;
     height:auto;
-   
+   margin-top:5px;
 }
 #hbar{
     margin-left:40%;
@@ -111,18 +114,20 @@ flex-wrap: wrap;
 #nav{
 
   
- max-width:100%;
+ 
   margin-top:5px;
   position: relative;
+  width:100%;
+  
 }
                                       
 
 .main-nav{
     display:flex;
-    
+    margin-left: 25%;;
     
     height:auto;
-    margin-left:20%;
+    
 
 z-index:3;
 
@@ -240,12 +245,12 @@ text-decoration: underline;
     font-family: 'Arapey', serif;
     color:white;
     
-    font-size: 4em;
+    font-size: 3.5em;
    
     z-index:44;
     position: absolute ;
-    top:35%;
-    left:32%;
+    top:39%;
+    left:19%;
     border:1px white solid;
     border-radius:10px;
     padding:10px;
@@ -259,23 +264,35 @@ text-decoration: underline;
 .about{
     display: flex;
     width:90%;
-    height:40vh;
-    margin-left:5%;
-}
-.about > div{
-    margin:auto 0;
+    height: 50vh;
+    margin:0 auto;
+ 
 }
 .al1{
-    font-size:1.4em;
+    margin:50px 0;
+}
+.ar1{
+    margin:auto 0;
+
+}
+.al1{
+    font-size:2.4em;
     flex-basis:40%;
     color:navy;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arapey', sans-serif;
+text-align: end;
 
+}
+.al1 h1{
+    margin-right:15px;
 }
 .ar1{
    
     flex-basis:80%;
     text-align: justify;
+    line-height: 25px;
+    font-weight: 700;
+    font-size:1.1em;
 }
   /* between ething*/
   #ething{
@@ -412,7 +429,8 @@ width:100%;
    line-height: 1.4em;
 
 padding-top:5%;
-
+ 
+width:100%;
 }
 
 .fupper{
@@ -575,9 +593,9 @@ flex:3;
 }
 .containerdetail h1{
     text-transform:uppercase;
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arapey", sans-serif;
     text-align: center;
 
 }
@@ -595,6 +613,9 @@ text-align: center;
 .containeradd p, .containeradd h1{
     padding:10px;
    
+}
+#contacthere .containeradd p a{
+    text-decoration: none;
 }
 .containeradd h1{
     text-align: center;
@@ -621,8 +642,8 @@ text-align: center;
 }
 .registerf >h1{
     text-align: center;
-    font-size:1.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size:2.5em;
+    font-family: "Arapey", sans-serif;
     padding-top:5px;
 }
 .imbigform{
