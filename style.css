@@ -25,7 +25,7 @@ footer{
     width:100%;
 }
 div{
-
+border:1px solid red;
 }
 * {
     box-sizing: border-box;
@@ -262,18 +262,27 @@ text-decoration: underline;
   }
   /* about kSR*/
 .about{
-    display: flex;
+   
     width:90%;
-    height: 50vh;
+    height: auto;
     margin:0 auto;
+    
  
 }
+.about-1{
+    display: flex;
+    
+    margin:7%;
+}
 .al1{
-    margin:50px 0;
+    
+    
+    
 }
 .ar1{
+  
+    
     margin:auto 0;
-
 }
 .al1{
     font-size:2.4em;
@@ -293,6 +302,7 @@ text-align: end;
     line-height: 25px;
     font-weight: 700;
     font-size:1.1em;
+    padding:10px;
 }
   /* between ething*/
   #ething{
@@ -377,18 +387,18 @@ margin:5px;
 /*Contact thing*/
 .contactdown{
     
-    height: 45vh;
+    height: auto;
 
-margin-top:4.9%;
-position: relative;
-width:100%;
+margin:auto 0;
+
+
 
 }
 .cd1{
     
-    position: absolute;
-    width:100%;
-    top:1%;
+
+    
+    margin:5%;
     
     
 }
@@ -940,6 +950,15 @@ line-height: 25px;
      background-size:600px 200px;
      
     }
+    .about-1{
+        display: block;
+    }
+    .al1{
+        text-align: start;
+    }
+    .ar1{
+        padding:0
+    }
     #ething{
         height:700px;
         
@@ -973,9 +992,7 @@ height: auto;
         width:30px;
 
     }
-    .contactdown{
-        height:30vh;
-    }
+  
  .fupper > div{
      padding:5px;
 
@@ -1147,7 +1164,12 @@ and (max-width :600px) {
     left:15%;
 }
 
-
+.about-1{
+    display: block;
+}
+.al1{
+    text-align: start;
+}
 .bottom-nav1{
     margin-left:4%;
 }
@@ -1248,17 +1270,17 @@ border-left:0;
         height:70vh;
     }
     /*Contact thing*/
-    .contactdown{
-        
-        height: 50vh;
-    
-    
-    }
+ 
    
     .fupper{
         display: block;
     }    
-    
+    .about-1{
+        display: block;
+    }
+    .al1{
+        text-align: start;
+    }
     
                                        /*Meet the team page starts*/
     
@@ -1389,12 +1411,7 @@ border-left:0;
         height:40vh;
     }
     /*Contact thing*/
-    .contactdown{
-        
-        height: 25vh;
    
-    
-    }
     .cd1{
         top: 6.5%;
         
