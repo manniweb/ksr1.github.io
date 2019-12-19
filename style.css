@@ -24,8 +24,12 @@ html, body {
 footer{
     width:100%;
 }
-div{
-border:1px solid red;
+div, li, h1{
+
+
+}
+ul{
+    
 }
 * {
     box-sizing: border-box;
@@ -112,28 +116,20 @@ flex-wrap: wrap;
 
 /*  nav bar*/
 #nav{
-
-  
- 
   margin-top:5px;
   position: relative;
   width:100%;
-  
+  display: flex;
 }
                                       
 
 .main-nav{
+    
     display:flex;
-    margin-left: 25%;;
     
-    height:auto;
-    
+z-index:3;  
+margin:auto;
 
-z-index:3;
-
-
-
-    
 }
 
 .main-nav > li{
@@ -204,10 +200,11 @@ z-index:3;
     padding:5px 0;
     position:absolute;
     min-width:140px;
-    z-index:102;
+    z-index:1044;
     visibility: hidden;
     
-    top:14%;
+    top:100%;
+    
     font-size:0.9em; 
     
 }
@@ -227,30 +224,28 @@ text-decoration: underline;
 /* header*/
 #header{
     max-width:100%;
-   
-    margin-bottom: 5%;
+    margin-bottom: 5%;  
+   height: auto; 
+}
+
+ #header .hp1{
+     width:100%;
+display: flex;
+ }
+
+  #header .insideh{
+
+ 
+  margin:auto;
   
-    text-align: center;
-   
-   overflow: hidden;
-   
-}
-
-#header.hp1{
-    background-attachment: fixed;
-}
-
-  .insideh{
-   
     font-family: 'Arapey', serif;
     color:white;
     
     font-size: 3.5em;
    
-    z-index:44;
-    position: absolute ;
-    top:39%;
-    left:19%;
+    
+   width: fit-content;
+  
     border:1px white solid;
     border-radius:10px;
     padding:10px;
@@ -259,6 +254,66 @@ text-decoration: underline;
   }
   .insideh >h1{
     color:white;
+    margin:auto;
+  }
+ 
+  .founder{
+      
+    margin-top:auto;
+    margin-left: auto;
+    padding-bottom: 3%;
+  
+    font-family: 'Montserrat', serif;
+    
+    
+    font-size: 3.5em;
+   
+    
+   width:auto;
+   
+  }
+  .founder> h1{
+color:black;
+border:1px black solid;
+border-radius:10px;
+padding:10px 15px 10px 15px;
+background: rgb(255, 255, 255); /* Fallback color */
+background: rgba(255, 255, 255, 0.6); /* Black background with 0.5 opacity */
+width:fit-content;
+  }
+  
+  .found{
+      color:white;
+      margin-left: 20px;
+      border:1px white solid;
+      border-radius:10px;
+      padding:10px;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+      width:fit-content;
+  }
+  .mianh{
+      display: flex;
+      margin: 10%;
+      width:auto;
+
+  }
+  .bossm{
+height:200px;
+width:400px;
+margin-right:10% ;
+border:1px white solid;
+border-radius:10px;
+
+background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(87, 62, 62, 0.2); /* Black background with 0.5 opacity */
+  }
+  .bossm img{
+height: 100%;
+width:100%;
+  }
+  .bos1{
+
   }
   /* about kSR*/
 .about{
@@ -340,7 +395,7 @@ text-align: end;
   position: absolute;
   padding:5px;
   top:33%;
-  left:3%;
+  margin:2%;
   height:auto;
   overflow: hidden;
 }
@@ -361,7 +416,7 @@ flex-wrap: wrap;
 
 height:100px;
 
-padding:5px;
+padding:10px;
 margin:5px;
 
 }
@@ -920,7 +975,8 @@ line-height: 25px;
         margin: 5px auto;
     }
     .sh1 {
-        padding:0 25%
+        padding:0 25%;
+        
     }
     .sh1 a{
        
@@ -928,16 +984,15 @@ line-height: 25px;
         
     }
     .sh1 img{
-    
+        margin-top:10px;
       
         padding:0;
     }
+    
     .insideh{
         padding:0;
         font-size: 3em;
-    right:4%;
-    top:40%;
-    left:0;
+    
     }
     #header .hp1 {
      height:200px;
@@ -1160,9 +1215,6 @@ and (max-width :600px) {
     background-size:768px 350px;
     
    }
-.insideh{
-    left:15%;
-}
 
 .about-1{
     display: block;
@@ -1239,10 +1291,7 @@ border-left:0;
   
         /* nav bar */
       
-      .main-nav{
-          margin-left:3%;   
-      }
-    
+     
       
       
                                       /*header navigation tab-shown*/
@@ -1254,10 +1303,6 @@ border-left:0;
     
     /* header*/
     
-      .insideh,.hj1{
-      left:20%;
-       
-      }
     
       /* about kSR*/
       .about{
@@ -1350,10 +1395,7 @@ border-left:0;
 }
     @media only screen and (max-width:1060px) and (min-width:865px){
       
-        .insideh,.hj1{
-            left:29%;
-             
-            }
+       
            
             .rr{
 
@@ -1380,9 +1422,7 @@ border-left:0;
     
         /* nav bar */
       
-      .main-nav{
-          margin-left:20%;   
-      }
+    
     
       
       
@@ -1395,10 +1435,7 @@ border-left:0;
     
     /* header*/
     
-      .insideh,.hj1{
-      left:37%;
-        
-      }
+     
     
       /* about kSR*/
       .about{
