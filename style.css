@@ -280,6 +280,7 @@ display: flex;
    
     
    width:auto;
+   font-weight: 570;
    
   }
   .founder> h1{
@@ -290,6 +291,7 @@ padding:10px 15px 10px 15px;
 background: rgb(255, 255, 255); /* Fallback color */
 background: rgba(255, 255, 255, 0.6); /* Black background with 0.5 opacity */
 width:fit-content;
+
   }
   
   .found{
@@ -301,6 +303,7 @@ width:fit-content;
       background: rgb(0, 0, 0); /* Fallback color */
       background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
       width:fit-content;
+      
   }
   .mianh{
       display: flex;
@@ -980,6 +983,9 @@ line-height: 25px;
 }
 
 @media only screen and (max-width:600px){
+    body{
+        font-size: 0.8em;;
+    }
     #hbar{
         display: block;
     
@@ -1006,9 +1012,14 @@ line-height: 25px;
     
     .insideh{
         padding:0;
-        font-size: 3em;
+        font-size: 2em;
     
     }
+
+    .founder{
+        font-size: 2em;
+    }
+
     .mianh{
         display: block;
     }
@@ -1240,6 +1251,12 @@ and (max-width :600px) {
 .about-1{
     display: block;
 }
+.founder{
+    font-size: 2.5em;
+}
+.insideh{
+    font-size: 2.5em;
+}
 .mianh{
     display: block;
 }
@@ -1354,6 +1371,12 @@ border-left:0;
     }
     .al1{
         text-align: start;
+    }
+    .founder{
+        font-size: 3em;
+    }
+    .insideh{
+        font-size: 3em;
     }
     .mianh{
         display: block;
