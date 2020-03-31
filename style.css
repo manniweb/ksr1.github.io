@@ -955,7 +955,7 @@ line-height: 25px;
 .contactwo1{
     margin:10px auto;
     text-align: center;
-    min-width: 140px;
+    width:fit-content;
     border:1px solid transparent;
     background: #282828;
     border-radius:100px;
@@ -971,7 +971,7 @@ line-height: 25px;
 }
 
 @media only screen and (max-width:600px){
-    li,p{
+    p{
         font-size: 1em;
     }
     #hbar{
@@ -1004,10 +1004,10 @@ line-height: 25px;
     
     }
 .insideh h1{
-    font-size:69% !important
+    font-size:73% !important
 }
 .insideh .homeslgn{
-    font-size:53.8% !important
+    font-size:55.8% !important
 }
     .founder{
         font-size: 2em;
@@ -1121,6 +1121,7 @@ margin:2px;
 }
 .cont11-1-1 p{
     padding:4px;
+    font-size: 1.15em;
 }
 .cont11-1-2 h1{
     padding:2px;
