@@ -314,8 +314,8 @@ width:fit-content;
   }
 
   .bossm{
-height:200px;
-width:200px;
+height:300px;
+width:300px;
 
 flex:1;
 
@@ -323,8 +323,8 @@ flex:1;
 
   }
   .bossm img{
-height: 200px;
-width:200px;
+height: 300px;
+width:300px;
   }
   .bos1{
 flex:1;
@@ -1262,7 +1262,9 @@ and (max-width :600px) {
 }
 .bossm{
     margin:auto;
+  
 }
+
 .al1{
     text-align: start;
 }
