@@ -24,13 +24,7 @@ html, body {
 footer{
     width:100%;
 }
-div, li, h1{
 
-
-}
-ul{
-    
-}
 .center{
     margin:auto;
     width:fit-content;
@@ -736,13 +730,7 @@ text-align: center;
      text-align: center;
     
 }
-.imform{
-    
-   
-   
-   
-    
-}
+
 
 .imform > input:last-child{
     width:120px;
@@ -984,7 +972,7 @@ line-height: 25px;
 
 @media only screen and (max-width:600px){
     body{
-        font-size: 0.8em;;
+        font-size: 1.2em;
     }
     #hbar{
         display: block;
@@ -1015,7 +1003,12 @@ line-height: 25px;
         font-size: 2em;
     
     }
-
+.insideh h1{
+    font-size:69% !important
+}
+.insideh .homeslgn{
+    font-size:53.8% !important
+}
     .founder{
         font-size: 2em;
     }
@@ -1036,6 +1029,9 @@ line-height: 25px;
      -webkit-background-size: 600px 200px;
      background-size:600px 200px;
      
+    }
+    .found h1{
+    font-size:70% !important
     }
     .about-1{
         display: block;
@@ -1111,6 +1107,31 @@ margin:2px;
 .teamoverview{
     padding: 5px;
 }
+.cont11-1{
+    padding:0;
+}
+.cont11-1> div{
+    padding:5px;
+}
+.cont11-1-1 h1{
+    padding:2px;
+}
+.cont11-1-1 h2{
+    padding:2px;
+}
+.cont11-1-1 p{
+    padding:4px;
+}
+.cont11-1-2 h1{
+    padding:2px;
+}
+.cont11-1-2 li{
+    padding:10px;
+}
+.cont11-1-2 p{
+    padding:2px;
+}
+
 }
                                 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media  only
@@ -1216,11 +1237,7 @@ width: 100%;;
      /*small devices (portrait tablet and large phones, 600px and up) */
 
    /*media for Extra small phones( 600px and down)*/
-@media only screen
 
-and (max-width :600px) {
-
-}
 /*medium devices (landscape tablets 768px and up) */
 
 @media only screen and (max-width:768px){
